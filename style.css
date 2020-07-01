@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: #333;
+	overflow: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+button {
+	height: 150px;
+	width: 250px;
+	margin: 35px;
+	border-radius: 25px;
+	border: none;
+	color: #222;
+	background: #333;
+	box-shadow: -10px -10px 20px #444,
+				10px 10px 20px #222,
+				inset 10px 10px 20px #444,
+				inset -10px -10px 20px #222;
+	font-size: 26px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: -10px -10px 20px #444,
+				10px 10px 20px #222,
+				inset 10px 10px 20px #222,
+				inset -10px -10px 20px #444;
+	font-size: 46px;
+	font-weight: bold;
+	transition: 1500ms;
+}
+
+.red:hover {
+	color: red;
+	text-shadow: 5px 5px 15px black;
+}
+.blue:hover {
+	color: blue;
+	text-shadow: 5px 5px 15px black;
+}
+.green:hover {
+	color: green;
+	text-shadow: 5px 5px 15px black;
+}
+.yellow:hover {
+	color: yellow;
+	text-shadow: 5px 5px 15px black;
+}
+.orange:hover {
+	color: orange;
+	text-shadow: 5px 5px 15px black;
+}
+.purple:hover {
+	color: purple;
+	text-shadow: 5px 5px 15px black;
+}
+.gold:hover {
+	color: gold;
+	text-shadow: 5px 5px 15px black;
+}
+.silver:hover {
+	color: silver;
+	text-shadow: 5px 5px 15px black;
+}
+.pink:hover {
+	color: pink;
+	text-shadow: 5px 5px 15px black;
+}
+.magenta:hover {
+	color: magenta;
+	text-shadow: 5px 5px 15px black;
+}
+.turquoise:hover {
+	color: turquoise;
+	text-shadow: 5px 5px 15px black;
+}
+.indigo:hover {
+	color: indigo;
+	text-shadow: 5px 5px 15px black;
+}
